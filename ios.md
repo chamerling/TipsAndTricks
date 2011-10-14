@@ -12,4 +12,7 @@ defaults write com.apple.Xcode PBXCustomTemplateMacroDefinitions '{ORGANIZATIONN
 
 ## Git ignores for Xcode
 http://stackoverflow.com/questions/6564257/cant-ignore-userinterfacestate-xcuserstate
+git rm -r --cached xcdebugger/
+git commit -m "Removed file that shouldn't be tracked"
+
 
